@@ -58,7 +58,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         // Show ChatGPT's response with streaming text effect
                         const chatGptMessage = document.createElement("div");
                         chatGptMessage.className = "message ai-message"; // Apply the ai-message class
-                        chatGptMessage.innerHTML = `<span class="user">ChatGPT: </span><span class="content"></span>`;
+                        chatGptMessage.innerHTML = `<span class="user">PukiGPT: </span><span class="content"></span>`;
                         chatMessages.appendChild(chatGptMessage);
                         const chatGptMessageContent = chatGptMessage.querySelector(".content");
 
