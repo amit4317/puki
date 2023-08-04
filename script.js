@@ -46,10 +46,10 @@ document.addEventListener("DOMContentLoaded", () => {
                     clearInterval(typingInterval);
 
                     // Generate a random number of "Meon" responses between 5 and 10
-                    const meonResponses = ["Meon"]; // Start with one "Meon"
+                    const meonResponses = ["Puki"]; // Start with one "Meon"
                     const numResponses = Math.floor(Math.random() * 6) + 1; // Random number between 5 and 10
                     for (let i = 0; i < numResponses; i++) {
-                        meonResponses.push("Meon");
+                        meonResponses.push("Puki");
                     }
                     const meonResponseString = meonResponses.join(" ");
                     // Adjust typing interval based on the length of ChatGPT's response
@@ -77,7 +77,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         chatMessages.scrollTop = chatMessages.scrollHeight;
                     }, 800); // Add a slight delay before the responses appear (for a more natural effect)
                 }
-            }, 100); // Time interval between each character (adjust as needed)
+            }, 40); // Time interval between each character (adjust as needed)
         }
     }
 
