@@ -47,7 +47,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
                     // Generate a random number of "Meon" responses between 5 and 10
                     const meonResponses = ["Meon"]; // Start with one "Meon"
-                    const numResponses = Math.floor(Math.random() * 6) + 5; // Random number between 5 and 10
+                    const numResponses = Math.floor(Math.random() * 6) + 1; // Random number between 5 and 10
                     for (let i = 0; i < numResponses; i++) {
                         meonResponses.push("Meon");
                     }
